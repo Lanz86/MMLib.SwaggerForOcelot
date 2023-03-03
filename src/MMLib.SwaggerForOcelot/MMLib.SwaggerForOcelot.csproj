@@ -5,6 +5,8 @@
         <Version>6.2.0</Version>
         <Authors>Antonio Lanzolla, Milan Martiniak</Authors>
         <Company>MMLib</Company>
+        <AssemblyName>LanzSoftware.MMLib.SwaggerForOcelot</AssemblyName>
+        <PackageId>LanzSoftware.MMLib.SwaggerForOcelot</PackageId>
         <Description>Swagger generator for Ocelot downstream services. Fix for use in Lanzsoftware.Ocelot</Description>
         <PackageProjectUrl>https://github.com/Burgyn/MMLib.SwaggerForOcelot</PackageProjectUrl>
         <PackageIcon>icon.png</PackageIcon>
