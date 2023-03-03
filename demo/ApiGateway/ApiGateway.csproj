@@ -6,8 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
-    <PackageReference Include="MMLib.Ocelot.Provider.AppConfiguration" Version="2.0.0" />
-    <PackageReference Include="Ocelot" Version="18.0.0" />
+    <PackageReference Include="LanzSoftware.Ocelot" Version="18.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 

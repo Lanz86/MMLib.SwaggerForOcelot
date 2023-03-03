@@ -7,7 +7,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Microsoft.Extensions.Hosting;
-using MMLib.Ocelot.Provider.AppConfiguration;
 using Microsoft.OpenApi.Models;
 
 namespace ApiGateway
@@ -25,8 +24,7 @@ namespace ApiGateway
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddOcelot()
-                .AddAppConfiguration();
+            services.AddOcelot();
             services.AddSwaggerForOcelot(Configuration);
 
             services.AddControllers();
